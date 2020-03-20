@@ -1,0 +1,371 @@
+body {
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 12px;
+  background-color: #191970;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #191970;
+  padding: 25px;
+}
+
+/* .dd-top h1 {
+  margin: 10px 10px;
+  height: 30px;
+  color: white;
+} */
+
+/* .left-nav {
+  margin: 20px 20px;
+} */
+
+.left nav {
+}
+
+.left-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.right-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* LOGO */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dd-logo {
+  background: url(https://i.imgur.com/IwfT9qu.png) center center;
+  height: 325px;
+  width: 500px;
+  background-size: cover;
+}
+
+/* SECTION HEADER STYLING */
+
+.dd-header {
+  padding: 20px;
+}
+
+.dd-header h1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 36px;
+}
+
+.dd-header h3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 17px;
+}
+
+/* SECTION CONTENT BOXES */
+
+.dd-three {
+  display: flex;
+  justify-content: center;
+}
+
+.dd-info {
+  margin: 1%;
+  width: 30%;
+  display: block;
+}
+
+.dd-history-image {
+  background: url(https://i.pinimg.com/originals/ff/64/ea/ff64ea86196b6f2f31a8bb30a2c344dc.jpg)
+    center center;
+  height: 300px;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.dd-history-text {
+  color: white;
+}
+
+.dd-history-text p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+.dd-shoes-image {
+  background: url(https://image.goat.com/crop/750/attachments/product_template_additional_pictures/images/016/284/350/original/466843_01.jpg.jpeg?1542744103)
+    center center;
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dd-shoes-text {
+  color: white;
+}
+
+.dd-shoes-text p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+.dd-apparel-image {
+  background: url(https://cdn-images.farfetch-contents.com/14/80/56/51/14805651_24994733_480.jpg)
+    center center;
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dd-apparel-text {
+  color: white;
+  background-color: #191970;
+}
+
+.dd-apparel-text p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* HISTORY SECTION */
+
+.dd-history-three {
+  display: flex;
+  justify-content: center;
+}
+
+.dd-history-info {
+  margin: 1%;
+  width: 30%;
+  display: block;
+}
+
+.dd-history-box1 p {
+  height: 300px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 15px;
+}
+
+.dd-history-box2 {
+  background: url(https://cdn-img-3.wanelo.com/p/712/0e2/21c/d593e0a2aba04a959fea16e/x354-q80.jpg)
+    center center;
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dd-history-box3 {
+  background: url(https://cdn-img-3.wanelo.com/p/b68/feb/2c3/d130d2b40f17b9b3399530a/x354-q80.jpg)
+    center center;
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SHOES SECTION */
+
+.dd-shoes-three {
+  display: flex;
+  justify-content: center;
+}
+
+.dd-shoes-info {
+  margin: 1%;
+  width: 30%;
+  display: block;
+}
+
+.dd-shoes-box1 {
+  background: url(https://stockx-360.imgix.net/Nike-Air-Force-1-Low-Off-White-MCA-University-Blue/Images/Nike-Air-Force-1-Low-Off-White-MCA-University-Blue/Lv2/img01.jpg)
+    center center;
+  height: 300px;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.dd-shoes-boxtext {
+  color: white;
+}
+
+.dd-shoes-boxtext p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+.dd-shoes-box2 {
+  background: url(https://stockx.imgix.net/Air-Jordan-1-Retro-High-No-Ls-Product.jpg)
+    center center;
+  height: 300px;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.dd-shoes-box3 {
+  background: url(https://stockx.imgix.net/Adidas-Yeezy-Boost-350-Low-Turtledove-Product.jpg)
+    center center;
+  height: 300px;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* APPAREL */
+
+.dd-apparel-three {
+  display: flex;
+  justify-content: center;
+}
+
+.dd-apparel-info {
+  margin: 1%;
+  width: 30%;
+  display: block;
+}
+
+.dd-apparel-box1 {
+  background: url(https://repxx.com/wp-content/uploads/2019/12/377-4.jpg) center
+    center;
+  height: 300px;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.dd-apparel-boxtext {
+  color: white;
+}
+
+.dd-apparel-boxtext p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+.dd-apparel-box2 {
+  background: url(https://stockx.imgix.net/products/streetwear/Anti-Social-Social-Club-Violets-Are-Blue-Long-Sleeve-Tee-Yellow.jpg)
+    center center;
+  height: 300px;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.dd-apparel-box3 {
+  background: url(https://stockx.imgix.net/products/streetwear/BAPE-x-Star-Wars-The-Child-Cargo-Baby-Milo-Tee-Black.jpg)
+    center center;
+  height: 300px;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* LEARN MORE */
+
+.dd-learnmore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 150px;
+  font-size: 15px;
+}
+
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 40px;
+  width: 95%;
+}
+
+/* FOOTER - CONTACT */
+.dd-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 150px;
+  font-size: 15px;
+}
+
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 40px;
+  width: 95%;
+}
