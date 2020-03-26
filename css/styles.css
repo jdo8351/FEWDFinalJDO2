@@ -54,6 +54,11 @@ header {
   width: 500px;
   background-size: cover;
 }
+/* 
+Container @ Sections */
+.dd-container{
+padding-bottom: 60px;
+}
 
 /* SECTION HEADER STYLING */
 
