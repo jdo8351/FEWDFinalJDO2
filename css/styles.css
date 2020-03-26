@@ -57,7 +57,7 @@ header {
 /* 
 Container @ Sections */
 .dd-container{
-padding-bottom: 60px;
+padding-bottom: 70px;
 }
 
 /* SECTION HEADER STYLING */
@@ -347,7 +347,7 @@ padding-bottom: 60px;
   align-items: center;
   text-align: center;
   color: white;
-  height: 300px;
+  height: 350px;
   padding: 75px;
 }
 
