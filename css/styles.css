@@ -425,12 +425,6 @@ input:focus {
   background-color: rgb(0, 157, 255);
 }
 
-/* input[type="submit"] {
-  height: 30px;
-  width: 200px;
-  background-color: rgb(0, 157, 255);
-  color: white;
-} */
 
 hr {
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -440,10 +434,17 @@ hr {
 
 /* Modal */
 
+.modal-button{
+display:flex;
+justify-content: center;
+}
+
 #myBtn {
+ display: flex;
+ justify-content: center;
   height: 50px;
   width: 200px;
-  background-color: #87cefa;
+  background-color: rgb(0, 157, 255);
   color: white;
   font-size: 17px;
 }
